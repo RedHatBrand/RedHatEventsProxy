@@ -1,4 +1,4 @@
-'use strict';
+var environment = process.env.NODE_ENV || 'development';
 
 var http      = require('http'),
     connect   = require('connect'),
@@ -6,14 +6,16 @@ var http      = require('http'),
     request   = require('superagent'),
     config    = require('./config');
 
+var urls = config[environment].urls;
+var base = config[environment].baseUrl;
+
 var app = connect().use(redirect());
 
 app.use(function(req, res){
-  var cloudfrontUrl = config[req.headers.host + req.url];
+  var cloudfrontUrl = urls[req.headers.host + req.url];
 
   if (cloudfrontUrl === undefined) {
-    console.log(req.headers.host + req.url);
-    return res.redirect('/404');
+    return res.redirect(base + '/404');
   }
 
   res.writeHead(200, { 'Content-Type' : 'text/html' });

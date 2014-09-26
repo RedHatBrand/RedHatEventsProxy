@@ -1,19 +1,26 @@
 {
-  "/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
-  "lvh.me:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
-  "localhost:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
-  "/404": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html", 
-  "lvh.me:8000/404": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html", 
-  "localhost:8000/404": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html", 
-  "lvh.me:8000/forum": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
-  "lvh.me:8000/forum/singapore": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/719/original/latest_index.html",
-  "lvh.me:8000/forum/mumbai": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/153/original/latest_index.html",
-  "lvh.me:8000/forum/bangalore": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/157/original/latest_index.html",
-  "lvh.me:8000/forum/tokyo": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/161/original/latest_index.html",
-  "lvh.me:8000/forum/jakarta": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/165/original/latest_index.html",
-  "lvh.me:8000/forum/taipei": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/169/original/latest_index.html",
-  "lvh.me:8000/forum/seoul": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/173/original/latest_index.html",
-  "lvh.me:8000/forum/hong-kong": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/177/original/latest_index.html",
-  "lvh.me:8000/forum/kuala-lumpur": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/181/original/latest_index.html",
-  "lvh.me:8000/forum/beijing": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/185/original/latest_index.html"
+  "development": {
+    "baseUrl": "http://localhost:8000",
+    "urls": {
+      "http://localhost:8000/foo": "http://localhost:8001/foo.html"
+    }
+  },
+  "production": {
+    "baseUrl": "http://redhat.events",
+    "urls": {
+      "redhat.events/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
+      "redhat.events/404": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html", 
+      "redhat.events/forum": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
+      "redhat.events/forum/singapore": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/719/original/latest_index.html",
+      "redhat.events/forum/mumbai": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/153/original/latest_index.html",
+      "redhat.events/forum/bangalore": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/157/original/latest_index.html",
+      "redhat.events/forum/tokyo": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/161/original/latest_index.html",
+      "redhat.events/forum/jakarta": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/165/original/latest_index.html",
+      "redhat.events/forum/taipei": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/169/original/latest_index.html",
+      "redhat.events/forum/seoul": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/173/original/latest_index.html",
+      "redhat.events/forum/hong-kong": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/177/original/latest_index.html",
+      "redhat.events/forum/kuala-lumpur": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/181/original/latest_index.html",
+      "redhat.events/forum/beijing": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/185/original/latest_index.html"
+    }
+  }
 }
