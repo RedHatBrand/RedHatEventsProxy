@@ -1,0 +1,13 @@
+{
+  "name": "redhat-proxy",
+  "version": "0.0.1",
+  "description": "Proxies to cloudfront static files",
+  "main": "proxy.js",
+  "author": "NetEngine",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "connect": "~2.26.3",
+    "connect-redirection": "0.0.1",
+    "superagent": "~0.18.0"
+  }
+}
