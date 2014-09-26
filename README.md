@@ -8,7 +8,7 @@
 
 - Login into the box
 
-        ssh netengine@54.252.109.1
+        soon...
 
 - Go to the app folder
 
