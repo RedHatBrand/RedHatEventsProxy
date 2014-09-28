@@ -2,7 +2,7 @@
   "development": {
     "baseUrl": "http://localhost:8000",
     "urls": {
-      "http://localhost:8000/foo": "http://localhost:8001/foo.html"
+      "localhost:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html"
     }
   },
   "production": {
@@ -20,7 +20,8 @@
       "redhat.events/forum/seoul": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/173/original/latest_index.html",
       "redhat.events/forum/hong-kong": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/177/original/latest_index.html",
       "redhat.events/forum/kuala-lumpur": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/181/original/latest_index.html",
-      "redhat.events/forum/beijing": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/185/original/latest_index.html"
+      "redhat.events/forum/beijing": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/185/original/latest_index.html",
+      "apactechexchange.com/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html"
     }
   }
 }
