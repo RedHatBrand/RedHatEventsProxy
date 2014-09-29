@@ -2,12 +2,16 @@
   "development": {
     "baseUrl": "http://localhost:8000",
     "urls": {
-      "localhost:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html"
+      "127.0.0.1:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html",
+      "localhost:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html",
+      "lvh.me:8000/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html"
     }
   },
   "production": {
     "baseUrl": "http://redhat.events",
     "urls": {
+      "54.66.9.152/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
+      "ec2-54-66-9-152.ap-southeast-2.compute.amazonaws.com": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
       "redhat.events/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
       "redhat.events/404": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html", 
       "redhat.events/forum": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/002/474/original/latest_hub.html",
@@ -21,7 +25,8 @@
       "redhat.events/forum/hong-kong": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/177/original/latest_index.html",
       "redhat.events/forum/kuala-lumpur": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/181/original/latest_index.html",
       "redhat.events/forum/beijing": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/003/185/original/latest_index.html",
-      "apactechexchange.com/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html"
+      "apactechexchange.com/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html",
+      "www.apactechexchange.com/": "http://d3s84xo5cmutkt.cloudfront.net/renders/attachments/000/001/963/original/latest_index.html"
     }
   }
 }

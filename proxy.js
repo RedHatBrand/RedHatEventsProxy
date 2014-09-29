@@ -15,7 +15,7 @@ app.use(function(req, res){
   var cloudfrontUrl = urls[req.headers.host + req.url];
 
   if (cloudfrontUrl === undefined) {
-    return res.redirect(base + '/404');
+    return res.redirect(base + '/');
   }
 
   res.writeHead(200, { 'Content-Type' : 'text/html' });
